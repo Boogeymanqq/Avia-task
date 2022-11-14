@@ -1,0 +1,61 @@
+.block {
+  position: relative;
+  margin-top: 150px;
+  margin: 150px auto;
+  height: 200px;
+  max-width: 980px;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+  border-radius: 15px;
+  justify-content: space-between;
+  align-items: center;
+
+  .blockLogo {
+    width: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    img {
+      width: 39px;
+      height: 39px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      color: #5c5c5c;
+      margin: 0;
+    }
+
+    &::before {
+      content: "Невозвратный";
+      position: absolute;
+      box-sizing: border-box;
+      padding-top: 5px;
+      top: 0;
+      left: 0;
+      width: 132px;
+      height: 26px;
+      background: #8ba5d8;
+      border-radius: 15px 0px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 12px;
+      color: #ffffff;
+    }
+  }
+
+  .total {
+    min-width: 190px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #232323;
+  }
+}

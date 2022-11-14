@@ -1,0 +1,69 @@
+.blockPath {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  row-gap: 24px;
+  border-right: 1px solid #dde3ee;
+
+  .pathTime {
+    display: flex;
+    align-items: center;
+
+    .pathTimeBeforeAfter {
+      p {
+        margin: 0 0 8px 0;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #232323;
+      }
+
+      div p {
+        margin: 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #5c5c5c;
+      }
+    }
+
+    .pathScheme {
+      margin: 0 28px 23px 31px;
+    }
+
+    .pathBaggage {
+      margin: 0 20px 0 33px;
+    }
+  }
+
+  .btnTime {
+    display: flex;
+    gap: 17px;
+
+    .btn {
+      border: none;
+      padding: 10px 0;
+      width: 130px;
+      background: #ffffff;
+      border: 1px solid #b7bac1;
+      border-radius: 10px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      color: #232323;
+    }
+
+    .btnActive {
+      border: none;
+      padding: 10px 0;
+      width: 130px;
+      background: #dde3ee;
+      border-radius: 10px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      color: #232323;
+    }
+  }
+}

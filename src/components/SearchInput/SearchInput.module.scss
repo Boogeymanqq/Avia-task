@@ -1,0 +1,44 @@
+.searchTitle,
+.searchInput {
+  display: block;
+}
+
+.searchTitle {
+  font-size: 11px;
+  line-height: 13px;
+  color: #ffffff;
+}
+
+.searchInput {
+  flex-direction: row-reverse;
+  gap: 6px;
+  padding: 12px;
+  box-sizing: border-box;
+  width: 208px;
+  border: 1px solid #b7bac1;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5c5c5c;
+
+  &:focus {
+    outline: none;
+    border: 1px solid #5c87db;
+    box-shadow: 0px 0px 2px rgba(92, 135, 219, 0.5);
+
+    &::-webkit-calendar-picker-indicator {
+      background: url("./img/calendar.png") no-repeat center;
+    }
+  }
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 16px;
+    color: #b7bac1;
+  }
+
+  &::-webkit-calendar-picker-indicator {
+    background: url("./img/calendar2.png") no-repeat center;
+  }
+}
